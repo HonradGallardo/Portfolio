@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+    <title>Your Professional Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Hello, I'm Honrad Gallardo</h1>
+            <p class="subtitle">Web Developer & Cyber Security analyst</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I am Honrad Ocampo Gallardo, a dedicated web developer and an aspiring Cyber Security analyst, with a strong focus on creating clean and efficient solutions. I have expertise in both front-end and back-end technologies, allowing me to deliver end-to-end web development projects making it secure and safe from cyber threats.
+            </p>
+            <h4>
+                Education:
+            </h4>
+            <p>Bachelors in Information Technology (2021 - 2025)</p>
+            <p>University of Pangasinan</p>
+            <h4>Proficient in:</h4>
+            <ul>
+                <li>Html/Css</li>
+                <li>Java Script</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Android Development</li>
+            </ul>
+            <button><a href="Resume and Application Letter .docx">Download Resume</a></button>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="image 6.jpg" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="image 4.png" alt="Image 2"></div>
+                        <div class="swiper-slide"><img src="image 5.png" alt="Image 3"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <p>My very first project was the Minesweeper, Minesweeper is a classic single-player puzzle game that gained popularity as a computer game. The objective of Minesweeper is to clear a rectangular board containing hidden mines or bombs without detonating any of them. The game is typically played on a grid, and the size of the grid and the number of mines can vary.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="image 1.jpg" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="image 2.jpg" alt="Image 2"></div>
+                        <div class="swiper-slide"><img src="image 3.jpg" alt="Image 3"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                <p>iCap is a Website where aspiring photographers can learn the different styles and types of camera for film making, iCap features one the best techniques of take the perfect shot, a tutorial about camera settings and many more.</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="image 7.png" alt="Image 1"></div>
+                </div>
+                <p>Guess the Color" is an interactive and engaging game that challenges players to identify or guess the correct color based on various clues or prompts. The game typically presents participants with a visual cue, such as a color swatch, RGB values, or a color-related question, and their objective is to choose or input the correct color. </p>
+            </div>
+            <div class="project">
+                <h3>Project 4</h3>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="image 8.jpg" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="image 9.jpg" alt="Image 2"></div>
+                        <div class="swiper-slide"><img src="image 10.jpg" alt="Image 3"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                <p>IBUild, is an Application where people with no knowledge about PCs can build the computer of their dreams, with a PC Builder featrure, users can select computer components that they want and build their own units. IBUild offers a wide range of computer parts at a low price.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>honradg71@gmail.com</p>
+            <p>https://www.linkedin.com/in/honrad-ocampo-gallardo-162295257/</p>
+            <p>https://github.com/HonradGallardo</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Honrad Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '"></span>';
+                },
+            },
+        });
+    </script>
+</body>
+</html>
